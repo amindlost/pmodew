@@ -1,0 +1,38 @@
+ Information about PMODE/W 1.33i
+---------------------------------
+
+        Over the past year or so I have received alot of requests for a
+squashed down version of PMODE/W to be used specifically for small intros
+and demos. Well today I took a few minutes and ripped out as much stuff as
+I could that I figure won't be used in an intro. Due to the architecture of
+the extender many functions are codependant so there are functions which
+still remain only because they simply cannot be removed.
+
+        As many of you may or may not know, PMODE/W is no longer being
+developed or supported (except for licensed users). This release represents
+nothing and it comes with no guarantees whatsoever. If it works for you,
+great. If it doesn't, then I don't really need to hear about it.
+
+The following files should be found in this archive:
+
+        PMODEWI.EXE     PMODE/W 1.33i WITHOUT EXE Compression
+        PMODEWIC.EXE    PMODE/W 1.33i WITH EXE Compression
+        PMODEWI.TXT     Duh
+
+This stuff was removed for PMODE/W v1.33i:
+
+        INT 31h Function 800h-801h Physical Address Mapping
+        Exception Handling
+        INT 33h Mouse Handler
+        INT 1Bh Control-Break Handler
+        INT 21h Functions 56h, 4Fh, 4Eh, 4Bh, 47h, 43h, 1Fh, 1Bh, 1Ch
+        All Error Message Text
+        EXE Compression (though I left this in for PMODEWIC.EXE)
+
+Linking and compiling should be second nature by now , and I need
+not say that it would probably be bad to make a call to any of the functions
+that were removed unless you do it yourself via INT 31h function 300h.
+
+If you MUST contact me you can send email to daredevi@dorsai.org though I have
+no clue how long that address will remain active. I can also be found most
+often on SceneNet #trax (irc.scene.org).

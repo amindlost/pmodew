@@ -1,0 +1,6 @@
+PMODE/W License
+
+Due to the fact that PMODE/W is no longer supported it is now free for use in
+commercial and non-commercial applications, provided said applications are not
+themselves DOS extenders. To put it bluntly, don't go ripping off our DOS
+extender to make your own.
